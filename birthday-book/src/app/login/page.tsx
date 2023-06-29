@@ -1,7 +1,6 @@
 import React from "react";
-
+import Link from 'next/link'
 import logo from "public/balloons.svg";
-//https://www.svgrepo.com/show/26572/balloons.svg
 
 export default function Login() {
     const backgroundStyle = {
@@ -26,6 +25,11 @@ export default function Login() {
                 </div>
                 <div className="mt-8 flex justify-center text-lg text-black">
                   <button type="submit" className="rounded-3xl bg-yellow-400 bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-yellow-600">Login</button>
+                  <button className="rounded-3xl bg-yellow-400 bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-yellow-600">
+                    <Link href="/">
+                        Voltar 
+                    </Link> 
+                  </button>
                 </div>
               </form>
             </div>
