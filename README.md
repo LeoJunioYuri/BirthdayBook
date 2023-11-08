@@ -1,6 +1,7 @@
 # BirthdayBook
 
 ## Descrição
+Quem nunca esqueceu o aniversário de uma pessoa querida? Agora seus problemas acabaram. Este aplicativo web permite que você faça login com sua conta do facebook e tenha acesso à data de aniversário de seus amigos. Selecione seus amigos próximos e sincronize com sua agenda preferida (google calendar ou apple calendar) para que você nunca mais esqueça uma data tão especial e possa comemorar com eles.
 
 Este é um projeto web desenvolvido com React, TypeScript e Next.js que permite aos usuários fazer login com sua conta do Facebook e obter uma lista personalizada com os aniversários de seus amigos. Além disso, os usuários têm a capacidade de ordenar a lista pela proximidade dos próximos aniversários e selecionar amigos para serem sincronizados com sua agenda virtual, seja o Google Calendar ou o Apple Calendar.
 
