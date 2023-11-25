@@ -10,7 +10,7 @@ export class Facebook {
 
   async getFriendsWithBirthdays(limit=25,afterCursor=''): Promise<FBBirthdayResponse> {
     try {
-      const response = await axios.get(`https://graph.facebook.com/v13.0/me/friends?fields=name,birthday&limit=${limit}&after=${afterCursor}&access_token=${this.accessToken}`);
+      const response = await axios.get(`https://graph.facebook.com/v18.0/me/friends?fields=name,birthday&limit=${limit}&after=${afterCursor}&access_token=${this.accessToken}`);
   
       return response.data as FBBirthdayResponse;
     } catch (error) {
